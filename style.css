@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+background:	#008080;
+}
+.nav-link , .navbar-brand{
+color: #f4f4f4;
+cursor: pointer;
+}
+.nav-link{
+margin-right: 1em !important;
+}
+.nav-link:hover{
+background: #f4f4f4;
+color: #008080;
+}
+.navbar-collapse{
+justify-content: flex-end;
+}
+.navbar-toggler{
+background:#fff !important;
+}
+.navbar-collapse{
+justify-content: flex-end;
+}
+.header{
+	min-height:97.5vh;
+	background-image: url('100.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.overlay{
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0;
+top: 0;
+background: rgba(244, 244, 244, 0.40);
+}
+
+.description{
+position: relative;
+top: 200px;
+left: 10%;
+}
+
+.description h1{
+color:#F97300 ;
+position: relative;
+top: 20%;
+}
+
+.description p{
+color:#2c2621;
+font-size: 20px;
+width: 40%;
+line-height: 1.5;
+position: absolute;
+left: 40%;
+top: 30%;
+margin: auto;
+padding: 2em;
+}
+
+.description button{
+border:1px solid #f4f4f4;
+background:#008080;
+color:#fff;
+position: absolute;
+left: 80%;
+top: 400px;
+}
+
+.most{
+	margin: 4em 0;
+}
+.most h1{
+color:#008080;
+margin: 2em;
+}
+.most img{
+
+border-radius: 10%
+}
+.most  span{
+color: #888;
+position: absolute;
+left: 500px;
+top: 100%;
+}
+.most  .desc{
+padding: 2em;
+border-left:3px solid #584d41;
+}
+.most  .desc h3{
+color: #10828C;
+}
+.most  .desc p{
+line-height:2;
+color:#574b42;
+}
+.team{
+margin: 4em 0;
+position: relative;
+}
+.team h1{
+color:#F97300;
+margin: 2em;
+}
+.team .item{
+position: relative;
+}
+.team .des{
+background: #F97300;
+color: #fff;
+text-align: center;
+border-bottom-left-radius: 10%;
+transition:.3s ease-in-out;
+}
+
+.team .item:hover .des{
+height: 100%;
+background:#f973007d;
+position: absolute;
+width: calc(100% - 30px);
+padding: 5em;
+top: 0;
+border-bottom-left-radius: 0;
+}
+
+.contact-form{
+margin: 6em 0;
+position: relative;
+}
+.contact-form h1{
+padding:2em 1px;
+color: #204060;
+}
+.contact-form .right{
+max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+background: #c6d9ec;
+color: #000;
+border:0;
+}
+.contact-form .right .form-control::placeholder{
+color: #204060;
+font-size: 16px; }
+
